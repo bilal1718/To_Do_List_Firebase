@@ -1,0 +1,42 @@
+$color_1: white;
+$background-color_1: #4caf50;
+$background-color_2: #45a049;
+
+.container {
+	display: flex;
+	justify-content: center;
+	height: 30vh;
+	width: 100%;
+	margin-top: 20px;
+}
+.form-container {
+	text-align: center;
+}
+.form-header {
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.input-field {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #333;
+	border-radius: 5px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.btn-container {
+	text-align: center;
+}
+.btn {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
